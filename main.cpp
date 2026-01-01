@@ -24,10 +24,11 @@ int main()
 {
 
 	//before actually starting exercises, will actually start by getting better a loops as they will help stregthen algorithm knowlegde
-	
-	//loop that shows even numbers between 0 up to users given number
+	//the following excercises were given by google overview as startups
 
+	//loop that shows even numbers between 0 up to users given number
 	//user will enter a number 
+	/*
 	int e_num;
 	std::cout << "Even number finder.\n";
 	std::cout << "Enter a number: ";
@@ -162,6 +163,38 @@ int main()
 		std::cout << number[i] << " ";
 	}
 
-	
 
+	//the following are from geek for geek. For these kind of exercices I will only go by what the prompt is asking for and not sign in into the site
+
+	//print number pattern(e.g. if user enter 3 output should be 333222111 332211 321) constraints 1 >= n <= 40
+
+	int n; //will be use to indicate the number sequence the pattern will follow
+
+	std::cout << "Enter a number: ";
+	std::cin >> n;
+
+	std::cout << "The pattern is: \n";
+
+	int counter = n; //use a iteration coutner for rows and printing number
+	int temp = n;//to keept the initial pattern number and not modifing it accidentally;
+
+	for (int i = counter; i > 0; i--) //outter loop keeps count of how many iteration for n time for rows
+	{
+		for (int j = temp; j > 0; j--)//first inner loop will keep track of decreasing next number after each print
+		{
+			for (int k = counter; k > 0; k--)//second inner loop will determine how many n to print n times before decreasing
+			{
+				std::cout << n;
+			}
+			n--; //decreases n after each iteration
+		}
+		std::cout << "-1. ";//instead of new line it will display a -1 at the end of each iteration
+		
+		n = temp;
+		counter--;
+	}
+	
+	*/
+
+	
 }
