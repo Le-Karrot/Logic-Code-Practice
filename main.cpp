@@ -194,7 +194,45 @@ int main()
 		counter--;
 	}
 	
+	//Series AP given the first 2 terms a1 and a2 of an Arithmetic Series. Find the nth term of the series. 
+
+	int  a1, a2, n;
+
+	std::cout << "Enter first term: ";
+	std::cin >> a1;
+
+	std::cout << "Enter second term: ";
+	std::cin >> a2;
+
+	std::cout << "Enter n^th term to find: ";
+	std::cin >> n;
+
+	int d = a2 - a1; //common difference
+
+	int nth_term = a1 + (n - 1) * d; //nth term formula
+
+	std::cout << "The " << n << " term is: " << nth_term;
+
 	*/
 
+	//Series GP given three intergers a, r, and n. First interger a is geometric progression, r is common ratio, and n is the position you need to find. Calculate the n^th term of the GP series.
 	
+	int a, r, nth;
+
+	int mod = 10000000007;
+
+
+	std::cout << "Enter first term: ";
+	std::cin >> a;
+
+	std::cout << "Enter common ratio: ";
+	std::cin >> r;
+
+	std::cout << "Enter n term to search: ";
+	std::cin >> nth;
+
+	
+
+
+
 }
