@@ -230,7 +230,7 @@ int main()
 
 	std::cout << "Enter n term to search: ";
 	std::cin >> nth;
-
+	
 	
 
 
